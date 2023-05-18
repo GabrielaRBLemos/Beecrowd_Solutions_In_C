@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    double Radius,PI,Area;
+    scanf("%lf",&Radius);
+    PI = 3.14159;
+    Area = Radius * Radius * PI;
+    printf("A=%.4lf\n",Area);
+}
